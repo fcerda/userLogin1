@@ -58,7 +58,7 @@ const SignUpPage = ({setId}) => {
     return(
         <div className="ui segment">
             <form className="ui form error" onSubmit={onSubmit}>
-                <h4 className="ui dividing header"> Create a Profile</h4>
+                <h4 className="ui dividing header"> Create your Profile</h4>
                 <input
                 type="text"
                 label="Name"

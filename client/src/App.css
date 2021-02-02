@@ -7,6 +7,9 @@
 .header{
   margin-left:40px;
 }
+.image {
+  margin-left:10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
