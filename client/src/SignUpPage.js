@@ -28,7 +28,7 @@ const SignUpPage = ({setId}) => {
     const onSubmit = (e) => {
         e.preventDefault();
         if (!name || !email || !password ) {
-            setTimeout(() => setError("I am so sorry but you need to give us your info"), 10000);
+            setTimeout(() => setError("Please type name, email and password"), 10000);
         }
         signUp( name, email, password, file);
     };
