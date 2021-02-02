@@ -28,7 +28,8 @@ const ProfilePage =({ id }) => {
     } />
         </div>
         <div class="content">
-            <h2 class="header">{user.name}</h2>
+            <h2>Please review your information</h2>
+            <h2 class="header">{user.name} </h2>
             <h2 class="header">{user.email}</h2>
         </div>
     </div>
