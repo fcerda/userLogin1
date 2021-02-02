@@ -28,7 +28,7 @@ const SignUpPage = ({setId}) => {
     const onSubmit = (e) => {
         e.preventDefault();
         if (!name || !email || !password ) {
-            setTimeout(() => setError("Please type name, email and password"), 10000);
+            setTimeout(() => setError("Please type your name, email and password"), 10000);
         }
         signUp( name, email, password, file);
     };
@@ -68,6 +68,7 @@ const SignUpPage = ({setId}) => {
                     setName(e.target.value);
                 }}
                 />
+
                 <input
                 type="email"
                 label="Email"
@@ -77,6 +78,7 @@ const SignUpPage = ({setId}) => {
                     setEmail(e.target.value);
                 }}
                 />
+
                 <input
                 type="password"
                 label="Password"
@@ -86,6 +88,7 @@ const SignUpPage = ({setId}) => {
                     setPassword(e.target.value);
                 }}
                 />
+
                 <input
                 type="file"
                 label="Image"
